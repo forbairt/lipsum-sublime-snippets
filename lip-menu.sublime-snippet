@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<ul${1: class="menu"}>
+	${2:<li class="active"><a href="#">Home</a></li>}
+	<li><a href="#">${3:About Us}</a></li>
+	<li><a href="#">${4:Products}</a></li>
+	<li><a href="#">${5:Contact Us}</a></li>
+</ul>
+]]></content>
+	<tabTrigger>lip-menu</tabTrigger>
+	<description>Add a menu</description>
+	<scope>source.php, text.html</scope>
+</snippet>
