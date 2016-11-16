@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+<img src="data:image/svg+xml;charset=utf-8,%3Csvg xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg' viewBox%3D'0 0 $1 $2'%3E%3Crect x%3D'0' y%3D'0' width%3D'$1' height%3D'$2' fill%3D'%23${3:CCCCCC}'%2F%3E%3C%2Fsvg%3E" class="thumbnail" width="${1:300}" height="${2:200}" />
+$0
+]]></content>
+	<tabTrigger>lip-image</tabTrigger>
+	<description>Add a placeholder image paragraph</description>
+	<scope>source.php, text.html</scope>
+</snippet>
